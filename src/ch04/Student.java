@@ -5,13 +5,11 @@ public class Student {
 	public String studentName;
 	public String address;
 	
+	public String setStudent(String name) {
+		return studentName = name;
+	}
+	
 	public void showStudentInfo() {
-		System.out.println(studentID + "학번의 이름은 " + studentName + " 주소는 " + address);
-	}
-	public String getStudentName() {
-		return studentName;
-	}
-	public void setStudent(String name) {
-		studentName = name;
+		System.out.println(studentID + "학번의 이름은 " + studentName + "이고, 주소는 " + address + "입니다.");
 	}
 }
