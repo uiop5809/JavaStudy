@@ -3,7 +3,7 @@ package ch16;
 public class EmployeeTest {
 
 	public static void main(String[] args) {
-		System.out.println(Employee.serialNum);
+		System.out.println(Employee.getSerialNum());
 		
 		Employee employeeLee = new Employee();
 		employeeLee.setEmployeeName("이순신");
