@@ -6,13 +6,6 @@ public class Customer {
 	protected String customerGrade;
 	int bonusPoint;
 	double bonusRatio;
-
-//	public Customer() {
-//		customerGrade = "SILVER";
-//		bonusRatio = 0.01;
-//		
-//		System.out.println("Customer() call");
-//	}
 	
 	public Customer(int customerID, String customerName) {
 		this.customerID = customerID;
