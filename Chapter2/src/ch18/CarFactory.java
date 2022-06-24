@@ -7,14 +7,16 @@ public class CarFactory {
 	public CarFactory() {
 	}
 	
-	public Car createCar() {
-		return new Car();
-	}
-	
 	public static CarFactory getInstance() {
 		if(instance == null) {
 			instance = new CarFactory();
 		}
 		return instance;
 	}
+	
+	public Car createCar() {
+		Car car = new Car();
+		return car;
+	}
+	
 }
